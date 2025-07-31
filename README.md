@@ -301,7 +301,7 @@ spec:
 this is the scenario that we are fallow for now there are to container in one pod
 and one in one pod and both accessible by client in outside 
  
-![image workflow](workflow1.png)
+![image workflow](docs/workflow1.png)
 
 create deployment for user
 
@@ -363,7 +363,7 @@ in second scenario we want to make sure that auth api is not accessible from out
 so we put every container in a separate pod and expose task and users pod to outside
 and auth pod just internally
 
-![image workflow](workflow2.png)
+![image workflow](docs/workflow2.png)
 
 create deployment and service for user 
 
